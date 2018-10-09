@@ -1,0 +1,120 @@
+body{
+    background-color: #d1d1e0;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    }
+    .header-box{
+    width: 100%;
+    height: 100px;
+    position: relative;
+    background-color: #ffffff;
+    border: 6x;
+    border-style: solid;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: solid;
+    border-left-style: none;
+    border-color: #cccccc;
+    margin: auto;
+    }
+    .container{
+    position: absolute;
+    top: 0;
+    left: 25%;
+    width: 960px;
+    padding: 10px;
+    }
+    h1{
+    position: absolute;
+    top: 0;
+    width: 250px;
+    height: 40px;
+    background-color: #4aaaa5;
+    text-align: center;
+    color: white;
+    margin: auto;
+    padding: 30px;
+    } 
+    ul {
+        position: absolute;
+        right: 0;
+        list-style-type: none;
+        margin: auto;
+        padding: 10px;
+        float: leftt;
+    }
+    li {
+        float: left;
+    }
+    li a {
+        display: block;
+        border: 2px;
+        border-style: solid;
+        border-top-style: none;
+        border-right-style: solid;
+        border-bottom-style: none;
+        border-left-style: none;
+        border-color: #4aaaa5;
+        color: grey;
+        text-align: center;
+        padding: 10px;
+        text-decoration: none;
+        font-weight: normal;
+        font-size: 22px;
+    }
+    li a:hover {
+        height: auto;
+        width: auto;
+        background-color: #717080;
+        color: white;
+    }
+    #bio{
+    left: 0;
+    text-align: left;
+    background-color: white;
+    height: auto;
+    padding: 20px;
+    margin: 200px 0px 200px 0px;
+    }
+    h2{
+    color:  #4aaaa5;
+    font-size: 35px;
+    font-weight: bold;
+    }
+    hr{
+    display: block;
+    color: grey;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-width: 1.5px;
+    }
+    #image{
+    float: left;
+    margin: 10px;
+    }
+    p{
+    letter-spacing: 2px;
+    line-height: 1.8;
+    margin: auto;
+    padding: 10px;
+    color: gray;
+    }
+    .footer-box {
+    width: 100%;
+    height: 100px;
+    color: white;
+    text-align: center;
+    padding: 20px 0px 0px 0px;
+    position: absolute;
+    bottom: 100;
+    background-color: #666666;
+    border: 6x;
+    border-style: solid;
+    border-top-style: solid;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    border-color: #4aaaa5;
+    }
+    
