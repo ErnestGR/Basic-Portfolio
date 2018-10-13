@@ -1,7 +1,6 @@
 body{
 background-image: url(../images/vintage-concrete.jpg);
 font-family: Arial, Helvetica, sans-serif;
-margin: auto;
 }
 #header{
 width: 100%;
@@ -13,26 +12,25 @@ border-top-style: none;
 border-right-style: none;
 border-bottom-style: solid;
 border-left-style: none;
-border-color: #cccccc;
-margin: auto;  
+border-color: #cccccc; 
+
 }
 .container{
 position: relative;
-left: 25%;
 width: 960px;
 height: 860px;
-margin: 0;
+margin: 0 auto;
 }
 .container2{
     position: relative;
-    left: 25%;
     width: 960px;
     height: 860px;
+    margin: 0 auto;
     }
     .container3{
         position: relative;
-        left: 25%;
         width: 960px;
+        margin: 0 auto;
         }
 h1{
 position: absolute;
@@ -42,7 +40,7 @@ height: auto;
 background-color: #4aaaa5;
 text-align: center;
 color: white;
-margin: auto;
+margin: 0;
 padding: 30px;
 } 
 ul {
@@ -70,7 +68,6 @@ text-decoration: none;
 font-weight: normal;
 font-size: 22px;
 }
-
 #nb a {
 display: block;
 border: none;
